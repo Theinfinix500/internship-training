@@ -2,6 +2,18 @@ h2 , #button-container{
     text-align: center;
     margin-top: 40px;
 }
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+    body {
+      background: #999;
+      width: 100%;
+    }
+  }
+element.style{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+  
 body {
     margin: 0;
     font-family:  sans-serif;
